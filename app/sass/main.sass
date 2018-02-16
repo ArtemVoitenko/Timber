@@ -1,0 +1,555 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+body
+	overflow-x: hidden
+*
+	font-family: $default-font
+	font-weight: lighter
+	outline: none
+
+
+.header
+	background: url(../img/bgTop.jpg)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	position: relative
+	overflow: hidden
+	padding-top: 40px
+
+	&:after
+		
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    bottom: 0
+    left: 0
+    width: 100%
+    /* background: url(../images/sliderL.png) center center no-repeat; */
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    /* background-size: cover; */
+    border-bottom: 150px solid #fff
+    border-left: 3000px solid transparent
+.topLine
+	display: inline-block
+	width: 100%
+	padding-top: 20px
+	padding-bottom: 20px
+	z-index: 5
+.mainNav
+	position: relative
+
+
+	ul
+		float: right
+		margin: 0
+		li
+			display: inline-block
+			&:after
+				content: "|"
+				color: black
+				font-size: 20px
+			a
+				color: #fff
+				
+				font-size: 14px
+				font-weight: bold
+				text-transform: uppercase
+				margin-right: 15px
+				margin-left: 15px
+				transition: 0.75s
+				&:hover
+					color: $accent
+.showNav			
+	float: right
+	display: inline-block
+	margin-top: -30px
+	font-size: 16px
+	text-transform: uppercase
+	color: #fff
+	font-weight: bold
+	display: none
+	
+.topSlItem
+	display: inline-block
+	h1
+		display: inline-block
+		font-size: 100px
+		letter-spacing: -2px
+		line-height: 110px
+		color: #fff
+		border-bottom: 4px solid $accent
+		font-family: "OpenSans"
+		font-weight: bold
+		outline: none
+		margin-bottom: 250px
+// .slick-dots 
+// 	float: right
+// 	display: inline-block
+// 	li 
+// 		button
+// 			&:before 
+//   			font-size: 20px
+//   			line-height: 20px
+//   			width: 20px
+//   			height: 20px
+//   			color: #000
+
+
+
+.achievments
+	margin-top: 40px
+	text-align: center
+	p
+		font-size: 13px
+		line-height: 23px
+
+.achivNumber
+	font-size: 37px
+	color: #000
+	font-weight: 400
+h3
+	font-size: 28px
+	font-weight: bolder
+	margin-bottom: 15px
+.h3Description
+	font-size: 16px
+	font-weight: 300
+	margin-bottom: 60px
+.onePage
+	text-align: center
+	img
+		max-width: 100%
+.advantages
+	padding-top: 200px
+	padding-bottom: 100px
+	background: url(../img/bgTop.jpg)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	overflow: hidden
+	position: relative
+	color: #fff
+	&:after
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    bottom: 0
+    left: 0
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover;
+    border-bottom: 150px solid #fff
+    border-left: 3000px solid transparent
+	&:before
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    top: 0
+    left: 0
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover;
+    border-top: 100px solid #fff
+    border-right: 2000px solid transparent
+h4
+	font-size: 20px
+	font-weight: 300
+	margin: 10px
+.advant
+	p
+		font-size: 13px
+		font-weight: 300
+		line-height: 23px
+	i
+		font-size: 24px
+		padding: 26px
+		border: 2px solid #fff
+		border-radius: 100%
+		color: #fff
+.teamSection
+	text-align: center
+	img
+		margin-bottom: 20px
+	i
+		font-size: 15px
+		color: #000
+		&:hover
+			color: $accent
+.tPosition
+	color: #A9A9B1
+	font-size: 13px
+.tmAbout
+	font-size: 13px
+.tSocial
+	margin-right: 20px
+	&:last-child
+		margin-right: 0
+.tMember
+	padding-bottom: 60px
+.hr1
+	height: 1px
+	border: 0
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(219,219,219,1), rgba(0,0,0,0));
+	margin-bottom: 60px
+
+.progressCircle
+	display: inline-block
+	position: relative
+	span
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-60%)
+		font-size: 18px
+		font-weight: bold
+		display: inline-block
+.progress
+	margin-bottom: 60px
+	p
+		font-size: 13px
+		line-height: 23px
+.customer
+	margin-top: 20px
+	span
+		font-size: 16px
+		display: block
+
+	img
+		padding: 0 25px 50px 25px
+
+.flLeft
+	float: left
+.flRight
+	float: right
+.leftAlign
+	text-align: left
+.rightAlign
+	text-align: right
+.customersDiv
+	display: inline-block
+	background-image: url(../img/horL.png)
+	background-repeat: no-repeat
+	background-position: center
+.sectTitle
+	background-image: url(../img/bgTop.jpg)
+	text-align: center
+	color: #fff
+	padding-top: 170px
+	padding-bottom: 100px
+	position: relative
+	overflow: hidden
+	margin-bottom: 60px
+	&:after
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    bottom: 0
+    left: 0
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover;
+    border-bottom: 150px solid #fff
+    border-left: 3000px solid transparent
+	&:before
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    top: 0
+    left: 0
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover;
+    border-top: 100px solid #fff
+    border-right: 3000px solid transparent
+	p
+		font-size: 16px
+		margin-top: -5px
+h2
+	font-size: 42px
+	margin: 0
+	font-family: "robotoRegular"
+	
+.worksNav
+	text-align: center
+	display: block	
+	margin-bottom: 50px	
+	li
+		display: inline-block
+		margin-right: 10px
+
+
+
+.workOwerlay
+	text-align: center
+.imgDiv	
+	margin-bottom: 20px
+	text-align: center
+	i
+		margin-right: 3px
+	text-align: center	
+	img
+
+		width: 100%
+		height: 100%	
+		margin-bottom: 15px	
+		border-radius: 5px
+		&:hover
+			opacity: 	0.5
+	span
+		color: #BABABA
+		font-size: 13px
+		margin-right: 10px
+	p
+		font-size: 13px
+		color: #666
+
+.workTitleLink
+	color: #000
+	font-size: 16px	
+	display: block	
+	margin-bottom: 15px
+	&:hover
+		color: $accent	
+.like
+	font-size: 13px
+	color: #BABABA
+	&:hover
+		color: #FD5F5B
+.button	
+	padding: 10px 15px
+	background-color: #2F2F2F
+	color: #fff
+	text-transform: uppercase
+	box-shadow: 0px 2px 0px 0px #000
+	border-radius: 4px
+	font-weight: bold
+	font-size: 14px
+	cursor: pointer
+
+	i
+		margin-right: 5px
+	&:hover
+		background-color: $accent
+		box-shadow: 0px 2px 0px 0px #179abf	
+.btns
+	text-align: center
+	margin-top: 25px
+	.button
+		&:first-child
+			margin-right: 20px
+.newsSection
+	margin-top: 15px
+
+.newsLinks
+	font-size: 13px
+	color: #BABABA
+	margin-right: 10px
+
+	&:hover
+		color: $accent
+
+	
+.rMore
+	font-size: 13px
+	color: $accent
+	font-weight: bold
+	&:hover
+		color: #BABABA
+
+.formSection
+	margin-top: 25px
+
+form
+	input
+		// padding-right: 5px
+		// padding-left: 5px
+		width: 100%
+		background-color: #EDEDED
+		color: #666
+		border-radius: 5px
+		border: none
+		padding: 10px
+		margin-bottom: 10px
+		&:focus
+			background-color: #DFDFDF
+	textarea
+		width: 100%
+		background-color: #EDEDED
+		color: #666
+		border-radius: 5px
+		border: none
+		padding: 10px
+		height: 130px
+		margin-bottom: 15px
+		&:focus
+			background-color: #DFDFDF
+.no-gutter
+	padding-right: 0
+	padding-left: 0
+.send
+	background-color: $accent
+	&:hover
+		background-color: #2F2F2F
+.contactsList
+	margin: 0
+	padding: 0
+	font-size: 12px
+	li
+		list-style-type: none
+		margin-bottom: 15px
+
+		a
+			padding-left: 10px
+			mb20
+			font-size: 13px
+			color: $accent
+			&:hover
+				color: #2F2F2F
+
+iframe
+	width: 100%
+	height: 750px
+	filter: grayscale(100%)
+	position: absolute
+.map
+	// padding-top: 170px
+	// padding-bottom: 100px
+	height: 700px
+	position: relative
+	overflow: hidden
+	&:after
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    bottom: 0
+    left: 0
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover;
+    border-bottom: 150px solid #fff
+    border-left: 3000px solid transparent
+	&:before
+    content: ""
+    position: absolute
+    z-index: 1
+    pointer-events: none
+    top: 0
+    left: 0
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover;
+    border-top: 100px solid #fff
+    border-right: 3000px solid transparent
+.careSection
+	text-align: center
+	.sectTitle
+		&:after
+			border-bottom: 150px solid #1C1C1C
+	h3
+		
+		font-family: 'robotoRegular'
+	p
+		font-size: 16px
+		margin-top: -5px
+	input
+		background-color: #1C1C1C
+		color: #666
+		padding: 10px
+		width: 350px
+		border:  none
+	button
+		border: none
+		margin-left: -5px
+		font-size: 13px
+		padding-left: 20px
+		padding-right: 20px
+.socialList
+	margin-top: 40px
+
+	li
+		list-style-type: none
+		display: inline-block
+		border: 2px solid #fff
+		border-radius: 100%
+		width: 50px
+		height: 50px	
+		padding: 8px 0px	
+		margin-right: 20px
+		&:hover
+			background-color: #1C1C1C
+			border: 2px solid #1C1C1C
+		a
+			font-size: 20px
+			color: #fff
+footer
+	background-color: #1C1C1C
+	margin-top: -60px
+
+
+	p
+		color: #fff
+		display: block
+		float: left
+		font-size: 13px
+.search
+	background-color: #1C1C1C
+	text-align: right
+	display: block
+	margin-bottom: 30px
+
+	input
+		background-color: #1C1C1C
+		border: none
+		text-align: right
+		padding: 5px
+
+.footerNav
+	float: right
+	display: inline
+	ul
+		margin: 0
+		
+		li
+			display: inline-block
+			&:after
+				content: "|"
+				color: #666
+				font-size: 15px
+			a
+				color: #fff
+				font-size: 13px
+				
+				
+				margin-right: 7px
+				margin-left: 7px
+				transition: 0.75s
+				&:hover
+					color: $accent
+
+.subscribe
+	margin-top: 10px
+
+
+@import "media" // Всегда в конце
